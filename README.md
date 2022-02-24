@@ -4,6 +4,11 @@ uppercase A and no lowercase n)
 
 ## usage
 ```sh
+go install github.com/tinygoprogs/pwgen/cmd/pwgen
+```
+
+Alternative:
+```sh
 go get -u github.com/tinygoprogs/pwgen
 cd $GOPATH/src/github.com/tinygoprogs/pwgen
 go run cmd/pwgen
